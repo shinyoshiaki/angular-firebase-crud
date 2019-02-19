@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # crud
+=======
+# Crud
+>>>>>>> 09cab0e16720e7d44ec223f0d7af1b6e37feba62
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
 
