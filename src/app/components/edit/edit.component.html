@@ -1,0 +1,7 @@
+<div *ngIf="item" style="margin: 10px">
+  <label>
+    <input type="text" placeholder="name" [formControl]="name" />
+    <input type="text" placeholder="pass" [formControl]="pass" />
+    <button (click)="edit()">edit</button>
+  </label>
+</div>

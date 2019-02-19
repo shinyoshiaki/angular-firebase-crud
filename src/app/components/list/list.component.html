@@ -1,0 +1,8 @@
+<div style="margin: 10px">
+  <li *ngFor="let item of items">
+    name: {{ item.name }} / pass: {{ item.pass }}
+    <button (click)="edit(item)">Edit</button>
+    <button (click)="delete(item)">delete</button>
+  </li>
+</div>
+<app-edit [item]="selectedItem" ></app-edit>
